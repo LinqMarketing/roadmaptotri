@@ -1,7 +1,6 @@
 [build]
-  base = "triathlon_nutrition_tracker"
-  command = "npm run build"
-  publish = "dist"
+  command = ""
+  publish = "triathlon_nutrition_tracker"
 
 [[redirects]]
   from = "/*"
