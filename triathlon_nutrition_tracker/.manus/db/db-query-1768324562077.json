@@ -1,0 +1,26 @@
+{
+  "query": "SELECT id, user_id, quote_text, category, quote_date, sent FROM daily_quotes ORDER BY quote_date DESC LIMIT 10;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user DjoqFAYN2EGb95B.root --database JEXDemZgGjt9PYxYtPL6A4 --execute SELECT id, user_id, quote_text, category, quote_date, sent FROM daily_quotes ORDER BY quote_date DESC LIMIT 10;",
+  "rows": [
+    {
+      "id": "2",
+      "user_id": "120057",
+      "quote_text": "Fueling your body with discipline isn't just about the finish line; it's the daily commitment that builds your personal best and transforms you through every stride.",
+      "category": "nutrition_discipline",
+      "quote_date": "2026-01-12 05:00:00",
+      "sent": "0"
+    },
+    {
+      "id": "1",
+      "user_id": "120057",
+      "quote_text": "Fueling your body with discipline isn't just about finishing; it's the hidden strength that will propel you to a personal best and unlock new levels of growth on race day.",
+      "category": "nutrition_discipline",
+      "quote_date": "2026-01-12 05:00:00",
+      "sent": "0"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tuser_id\tquote_text\tcategory\tquote_date\tsent\n2\t120057\tFueling your body with discipline isn't just about the finish line; it's the daily commitment that builds your personal best and transforms you through every stride.\tnutrition_discipline\t2026-01-12 05:00:00\t0\n1\t120057\tFueling your body with discipline isn't just about finishing; it's the hidden strength that will propel you to a personal best and unlock new levels of growth on race day.\tnutrition_discipline\t2026-01-12 05:00:00\t0\n",
+  "stderr": "",
+  "execution_time_ms": 368
+}

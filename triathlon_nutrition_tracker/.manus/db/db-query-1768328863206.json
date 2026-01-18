@@ -1,0 +1,9 @@
+{
+  "query": "DELETE FROM daily_quotes WHERE DATE(quote_date) < CURDATE();",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user DjoqFAYN2EGb95B.root --database JEXDemZgGjt9PYxYtPL6A4 --execute DELETE FROM daily_quotes WHERE DATE(quote_date) < CURDATE();",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 430
+}

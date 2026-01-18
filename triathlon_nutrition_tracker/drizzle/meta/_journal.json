@@ -1,0 +1,55 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1767750371636,
+      "tag": "0000_amazing_hedge_knight",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1767750543387,
+      "tag": "0001_keen_crystal",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1768180975164,
+      "tag": "0002_adorable_the_twelve",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1768181013878,
+      "tag": "0003_nasty_lockjaw",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1768234741960,
+      "tag": "0004_tan_blacklash",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1768237695738,
+      "tag": "0005_lush_ken_ellis",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1768266754912,
+      "tag": "0006_premium_firebrand",
+      "breakpoints": true
+    }
+  ]
+}
